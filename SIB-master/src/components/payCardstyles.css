@@ -1,0 +1,85 @@
+.pay-card{
+    position: relative;
+    padding: 10px;
+    width: 55%;
+    height: 240px;
+    z-index: -1;
+    border-radius: 15px;
+    background-color: white;
+}
+.paying{
+    position: relative;
+    width: 55%;
+    height: 240px;
+    z-index: -1;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 5px 15px 0 rgb(0, 0, 0 ,0.25);
+}
+.due{
+    position: relative;
+    top: -108%;
+    left: 56.5%;
+    width: 45%;
+    height: 120px;
+    z-index: -1;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 5px 15px 0 rgb(0, 0, 0 ,0.25);
+}
+.due p8{
+    position: relative;
+    font-weight: 100;
+    top: 7%;
+    left: 15%;
+    font-size: 50px;
+    color: lightsalmon;
+}
+.reporting{
+    position: relative;
+    top: -100%;
+    left: 56.5%;
+    width: 45%;
+    height: 100px;
+    z-index: -1;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 5px 15px 0 rgb(0, 0, 0 ,0.25);
+}
+.pay-cc form{
+    width: 100%;
+    height: 50px;
+}
+.ccpay-button{
+    position: absolute;
+    top: 80%;
+    background-color:lightsalmon;
+}
+.full{
+    position: relative;
+    top: 20%;
+    left: 8%;
+    display: flex;
+    gap: 107px;
+}
+.full p6{
+    color: lightsalmon;
+}
+.partially{
+    position: relative;
+    left: 7%;
+    display: flex;
+    gap: 100px;
+}
+.partially p6{
+    color: lightsalmon;
+}
+.lost-stolen{
+    background-color: lightsalmon;
+    height:100% ;
+    width: 100%;
+}
+.lost-stolen:hover{
+    background-color: red;
+}
+  

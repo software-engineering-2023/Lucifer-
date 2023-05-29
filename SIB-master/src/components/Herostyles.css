@@ -1,0 +1,34 @@
+.hero{
+    width: 100%;
+    height: 1000px;
+    position:relative;
+    z-index: -1;
+    
+}
+.points-hero{
+    width: 100%;
+    height: 400px;
+    position:relative;
+    z-index: -1;
+}
+ img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.heroText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.heroText h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.heroText p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}

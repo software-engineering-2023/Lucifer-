@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255,255,255,0.4);
+    margin: 40px;
+    transition: 0.3sec;
+    border-radius: 13px;
+}
+.square h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 1000;
+    color: black;
+    padding-top: 40px;
+    
+}
+.square p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    padding-top: 10px;
+    
+}
+.square:hover {
+    background-color: white;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    transform: scale(1.3);
+    opacity: 0.9;
+}
+.square:hover h1{
+    color: rgb(242,164,129);
+    padding-top: 20px;
+    font-size: 22px;
+}
+.square:hover p{
+    color: rgb(242,164,129);
+    font-size: 13px;
+}
+.square .explore {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: rgb(242,164,129);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: opacity 0.3s;
+}
+
+.square:hover .explore {
+    display: inline-block;
+}
+  

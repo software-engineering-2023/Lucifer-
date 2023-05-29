@@ -1,0 +1,21 @@
+.points{
+    width: 100%;
+    padding: 10px;
+}
+.point{
+    width: 25%;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px 0 rgb(0, 0, 0 ,0.25);
+}
+.point hh{
+    font-size: 30px;
+    color: rgb(146, 148, 150);
+}
+.point hp{
+    position: relative;
+    left:15%;
+    top: 20%;
+    font-size: 55px;
+    color: lightsalmon;
+}

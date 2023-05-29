@@ -1,0 +1,131 @@
+.card-info{
+    padding: 10px;
+    margin-top: 1px;
+    width: 55%;
+    height: 450px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px 0 rgb(0, 0, 0 ,0.25);
+}
+.creditcard-img{
+    width: 55%;
+    height: auto;
+    border-radius: 15px;
+}
+.balance{
+    position: relative;
+    left: 75%;
+    top: -130%;
+}
+.balance h6{
+    font-size: 35px;
+    color: lightsalmon;
+    margin-top: 30px;
+}
+.balance p{
+    font-size: 20px;
+    color:#a8a4a4;
+}
+.meter {
+    box-sizing: content-box;
+    position: relative;
+    top: -120%;
+    width: 55%;
+    height: 10px; 
+    background: #dcdbdb;
+    border-radius: 25px;
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+  }
+  .meter > span {
+    display: block;
+    height: 100%;
+    width: 35%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: lightsalmon;
+    position: relative;
+    overflow: hidden;
+  }
+.monthly-limit{
+    position: relative;
+    top: -115%;
+    width: 50%;
+    color: #a8a4a4;
+}
+.monthly-limit h11{
+    position: relative;
+    left: 32%;
+}
+.vertical-line { 
+    width: 1px; 
+    height: 250px;
+    background-color: rgb(203, 198, 198);
+    position: relative;
+    top: -62%;
+    left: 65%;
+}
+.switchh{
+    position: relative;
+    height: 50px;
+    top: -133%;
+    left: 89%;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  .switchh p5{
+    position: relative;
+    top: 100%;
+    left: -17%;
+    color: #a8a4a4;
+  }
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  input:checked + .slider {
+    background-color:lightsalmon;
+  }
+  input:focus + .slider {
+    box-shadow: 0 0 1px lightsalmon;
+  }
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  .slider.round {
+    border-radius: 34px;
+  }
+  .slider.round:before {
+    border-radius: 50%;
+  }
+

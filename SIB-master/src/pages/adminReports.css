@@ -1,0 +1,22 @@
+Sherif{
+    position: absolute;
+    left:50%;
+    width: 100%;
+    padding: 10px;
+  }
+  .Sherif h1h{
+    position: absolute;
+    font-size: 30px;
+    left:25%;
+    margin-bottom:25px;
+    padding-bottom: 60px;
+  }
+  .break{
+    padding: 15px;
+  }
+  .Sherif button{
+    background-color: #C94926;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 100%;
+  }
